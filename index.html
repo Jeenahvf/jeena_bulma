@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bulma Portfolio Mockup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <style>
+      .navbar.is-dark-custom {
+        background-color: #363636; /* Custom dark color to match the image */
+        color: #fff;
+      }
+      .navbar.is-dark-custom .navbar-item {
+        color: #fff;
+      }
+      .navbar.is-dark-custom .navbar-item.is-active {
+        border-bottom: 3px solid #00d1b2; /* Bulma's primary color or custom highlight */
+        color: #fff;
+      }
+      /* Style for project images to ensure they fill the space well */
+      .portfolio-image {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar is-dark-custom"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-4 has-text-weight-bold" href="#">
+          Logo
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu is-active">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#"> About </a>
+          <a class="navbar-item" href="#"> Services </a>
+          <a class="navbar-item is-active has-text-info" href="#">
+            Portfolio
+          </a>
+          <a class="navbar-item is-hidden-desktop" href="#"> Contact </a>
+        </div>
+
+        <div class="navbar-end is-hidden-touch">
+          <a class="navbar-item" href="#"> Contact </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-2">Portfolio</h1>
+        <h2 class="subtitle is-4">Recent Work</h2>
+        <hr />
+
+        <div class="columns is-multiline is-desktop">
+          <div class="column is-half-desktop is-full-tablet">
+            <figure class="image">
+              <img
+                class="portfolio-image"
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlfGVufDB8fDB8fHww"
+                alt="Ants on grass"
+              />
+            </figure>
+            <p class="title is-5 mt-4 has-text-info">Project Title</p>
+            <p class="subtitle is-7">
+              Upon yielding, kind sea subdue very seed sixth them lesser one
+              lesser one lesser there earth days were multiply so sixth
+              gathering fifth that man fowl made.
+            </p>
+          </div>
+
+          <div class="column is-half-desktop is-full-tablet">
+            <figure class="image">
+              <img
+                class="portfolio-image"
+                src="https://plus.unsplash.com/premium_photo-1676496046182-356a6a0ed002?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFuZHNjYXBlfGVufDB8fDB8fHww"
+                alt="Sunset over water with small island"
+              />
+            </figure>
+            <p class="title is-5 mt-4 has-text-info">Project Title</p>
+            <p class="subtitle is-7">
+              Upon yielding, kind sea subdue very seed sixth them lesser one
+              lesser one lesser there earth days were multiply so sixth
+              gathering fifth that man fowl made.
+            </p>
+          </div>
+
+          <div class="column is-half-desktop is-full-tablet">
+            <figure class="image">
+              <img
+                class="portfolio-image"
+                src="https://plus.unsplash.com/premium_photo-1676496046182-356a6a0ed002?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFuZHNjYXBlfGVufDB8fDB8fHww"
+                alt="Waves hitting a rocky coast"
+              />
+            </figure>
+            <p class="title is-5 mt-4 has-text-info">Project Title</p>
+            <p class="subtitle is-7">
+              Upon yielding, kind sea subdue very seed sixth them lesser one
+              lesser one lesser there earth days were multiply so sixth
+              gathering fifth that man fowl made.
+            </p>
+          </div>
+
+          <div class="column is-half-desktop is-full-tablet">
+            <figure class="image">
+              <img
+                class="portfolio-image"
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlfGVufDB8fDB8fHww"
+                alt="Trees with autumn foliage"
+              />
+            </figure>
+            <p class="title is-5 mt-4 has-text-info">Project Title</p>
+            <p class="subtitle is-7">
+              Upon yielding, kind sea subdue very seed sixth them lesser one
+              lesser one lesser there earth days were multiply so sixth
+              gathering fifth that man fowl made.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
